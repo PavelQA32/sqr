@@ -10,7 +10,6 @@ class SQRServiceTest {
     @ParameterizedTest
     @CsvSource(value = {
             "'correct data',200,300,3",
-            "'crash test',200,300,7",
             "'big data',7744,9999,12",
             "'small data',100,150,3",
             "'min and max are equal',400,400,1",
